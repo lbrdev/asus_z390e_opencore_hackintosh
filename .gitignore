@@ -16,6 +16,7 @@ Catalina Vanilla build by [OpenCore Guide](https://dortania.github.io/OpenCore-D
 * Monitor: LG UltraFine 27UL650-W 27’’
 * Mouse: Logitech MXMaster 2S
 * Keyboard: Varmilo VA108MAC
+
 For Windows(*):
 * Kingston SKC400S37 128Gb
 * WD Caviar Blue WD10EZEX 1 Tb
