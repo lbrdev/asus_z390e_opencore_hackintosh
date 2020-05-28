@@ -1,7 +1,4 @@
-# z390-e_OC_Hackintosh
-
-### OpenCore Hackintosh for Asus ROG Strix Z390-E/Intel i5 9600k
-**System**
+# OpenCore Hackintosh for Asus ROG Strix Z390-E/Intel i5 9600k
 Catalina Vanilla build by [OpenCore Guide](https://dortania.github.io/OpenCore-Desktop-Guide/)
 
 ![About](_resources/info.png)
@@ -23,7 +20,7 @@ For Windows(*):
 * Kingston SKC400S37 128Gb
 * WD Caviar Blue WD10EZEX 1 Tb
 
-## What’s Working/What’s Not
+## System status
 **Working**
 * Audio
 * APFS
