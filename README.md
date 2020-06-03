@@ -44,6 +44,15 @@ Catalina build by [OpenCore Guide](https://dortania.github.io/OpenCore-Desktop-G
 **Not Yet Tested**
 * Built-in WIFI. Didn’t even try.
 
+## Config Sanity
+You can check my config [here](https://opencore.slowgeek.com/?file=coffeelake058XbuMHG&rs=coffeelake058).
+Warnings description:
+* ProtectUefiServices - Should be enabled for z390 by guide
+* DisableRtcChecksum - To fix POSTed
+* PickerMode - I'am using external Apple-like picker
+* BootProtect - To disable bios boot override
+* prev-lang:kbd - I'am Russian
+
 ## USB Map
 ~For now I am using a SSDT-UIAC for that, but kext folder contains USBMap.kext with my custom map. It’s should be updated for change Bluetooth to internal, just use SSDT.~
 Updated to USBMap.kext. Check my [usb table](usb_table.md).
