@@ -44,8 +44,11 @@ __OpenCore Version: 0.5.9__ MacOS Catalina by [OpenCore Guide](https://dortania.
 ## Screenshots
 <details>
       <summary>Benchmarks</summary>
+      
       ![Disk](_resources/disk.png)
+
       ![Cinebench](_resources/cinebench.png)
+
       ![Geekbench](_resources/geekbench.png)
 </details>
 
