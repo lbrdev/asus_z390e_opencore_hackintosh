@@ -41,6 +41,14 @@ __OpenCore Version: 0.5.9__ MacOS Catalina by [OpenCore Guide](https://dortania.
 **Optional**
 * Onboard Bluetooth. Try this [kext](https://github.com/zxystd/IntelBluetoothFirmware).
 
+## Screenshots
+<details>
+      <summary>Benchmarks</summary>
+      ![Disk](_resources/disk.png)
+      ![Cinebench](_resources/cinebench.png)
+      ![Geekbench](_resources/geekbench.png)
+</details>
+
 ## Before Use
 **INPORTANT!**
 Change SMBIOS info for yours (config.plist/PlatformInfo/Generic). You can use this [guide](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html).
