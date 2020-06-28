@@ -1,6 +1,6 @@
 # OpenCore Hackintosh for Asus ROG Strix Z390-E/Intel i5 9600k
-__Version: 0.5.8__
-Catalina build by [OpenCore Guide](https://dortania.github.io/OpenCore-Desktop-Guide/)
+# Full clean update to OpenCore 0.5.9!
+__OpenCore Version: 0.5.9__ MacOS Catalina by [OpenCore Guide](https://dortania.github.io/OpenCore-Desktop-Guide/)
 
 ![About](_resources/info.png)
 
@@ -34,41 +34,39 @@ Catalina build by [OpenCore Guide](https://dortania.github.io/OpenCore-Desktop-G
 * Facetime
 * APFS
 * Handoff
-* Bluetooth & Wi-Fi (via Fenvi t919)
+* Bluetooth & Wi-Fi (via Fenvi T919)
 * Continuity
 * NVRAM
 
 **Optional**
 * Onboard Bluetooth. Try this [kext](https://github.com/zxystd/IntelBluetoothFirmware).
 
-**Not Yet Tested**
-* Built-in WIFI. Didn’t even try.
-
-## Config Sanity
-You can check my config [here](https://opencore.slowgeek.com/?file=coffeelake058XbuMHG&rs=coffeelake058).
-Warnings description:
-* ProtectUefiServices - Should be enabled for z390 by guide
-* DisableRtcChecksum - To fix POSTed
-* PickerMode - I'am using external Apple-like picker
-* BootProtect - To disable bios boot override
-* prev-lang:kbd - I'am Russian
-
-## USB Map
-~For now I am using a SSDT-UIAC for that, but kext folder contains USBMap.kext with my custom map. It’s should be updated for change Bluetooth to internal, just use SSDT.~
-Updated to USBMap.kext. Check my [usb table](usb_table.md).
-
 ## Before Use
 **INPORTANT!**
 Change SMBIOS info for yours (config.plist/PlatformInfo/Generic). You can use this [guide](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html).
+NVMe should be installed into M.2_2 slot on Asus Z390-E motherboard! Otherwise it will work in only X1 channel (~30% of full NVMe speed)!
 
-~EFI folder contains Windows Bootloader and entry in config.plist/Misc/Entries for launch it. Change path or remove if needed.~
+## BIOS
+First of all update yor BIOS to the latest version.
+Then follow the list:
+* Fast Boot - disable
+* SecureBoot - disable
+* VT-d - disable
+* CSM - disable
+* CFG-Lock - disable
+* Serial Port - disable
+* WiFi & Bluetooth - disable
+* Above 4G - enable
+* XHCI Hand-off - enable
+* OS Type - Windows
+* XMP II profile (optional)
 
-## Improvements list
-My list for future
-* ~Remove Windows boot loader for drop-in~
-* Add BIOS configuration
-* ~Remap USB for deleting UIAC~
+## Config Sanity
+You can check my config [here](https://opencore.slowgeek.com/?file=coffeelake059Uy7glO&rs=coffeelake059).
 
+## USB Map
+Sweet and clean working USBMap.kext.
+Check my [usb table](usb_table.md).
 
 ## Contacts
 My email for questions - lbrdev.contact@gmail.com
