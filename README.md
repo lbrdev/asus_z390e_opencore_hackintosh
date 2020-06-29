@@ -79,5 +79,14 @@ You can check my config [here](https://opencore.slowgeek.com/?file=coffeelake059
 Sweet and clean working USBMap.kext.
 Check my [usb table](usb_table.md).
 
+## Tools
+Must have OpenCore hackintosher's tools
+* [MountEFI](https://github.com/corpnewt/MountEFI) - Helps to mount /EFI folder
+* [ProperTree](https://github.com/corpnewt/MountEFI) - A way to open config.plist
+* [USBMap](https://github.com/corpnewt/USBMap) - Tool to make a usb map
+* [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) - Apple seral generator
+* [Lilu-and-Friends](https://github.com/corpnewt/Lilu-and-Friends) - To update kexts
+* [OCConfigCompare](https://github.com/corpnewt/OCConfigCompare) - To update OC
+
 ## Contacts
 My email for questions - lbrdev.contact@gmail.com
