@@ -9,5 +9,9 @@
 | 2 | HS10/SS10 - BACK - 3.0||
 | 1 | HS13 - RIGHT BACK - 2.0||
 | 1 | HS06 - LEFT BACK - 2.0||
-| 1 | HS13 - FENVI - INTERNAL||
+| 1 | HS12 - FENVI - INTERNAL||
 | __RESULT: 15 active ports__ |||
+
+![Rear](_usb_map/rear.jpg)
+
+![Internal](_usb_map/front.png)
