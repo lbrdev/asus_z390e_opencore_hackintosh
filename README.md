@@ -2,7 +2,23 @@
 # Full rebuild to OpenCore 0.5.9!
 __OpenCore Version: 0.5.9__ MacOS Catalina by [OpenCore Guide](https://dortania.github.io/OpenCore-Desktop-Guide/)
 
-![About](_resources/info.png)
+## 📸 Screenshots
+<details>
+<summary>About Mac</summary>
+
+![About](_resources/about.png)
+
+</details>
+<details>
+<summary>Benchmarks</summary>
+
+![Disk](_resources/disk.png)
+
+![Cinebench](_resources/cinebench.png)
+
+![Geekbench](_resources/geekbench.png)
+
+</details>
 
 ## 📃 Hardware List
 #### 🖥 Mac
@@ -11,7 +27,7 @@ __OpenCore Version: 0.5.9__ MacOS Catalina by [OpenCore Guide](https://dortania.
 * GPU: Radeon RX 580 8GB DDR5 Sapphire Pulse
 * RAM: Crucial Ballistic Sport LT Red  3200MHz (16x2)
 * Memory: Samsung 970 EVO Plus 500GB
-* WIFI/Bluetooth: Fenvi T919
+* WIFI/Bluetooth: [Fenvi T919](https://www.aliexpress.com/item/32778371977.html)
 * Power: 650W Corsair RM650X
 * CPU Cooler: Be Quite Dark Rock Pro 4
 * Case: DeepCool Matrexx 55
@@ -31,28 +47,18 @@ __OpenCore Version: 0.5.9__ MacOS Catalina by [OpenCore Guide](https://dortania.
 * [USB](_usb_map/usb_table.md)
 * App Store
 * Facetime
-* Bluetooth & Wi-Fi (via Fenvi T919)
+* Bluetooth & Wi-Fi (via [Fenvi T919](https://www.aliexpress.com/item/32778371977.html))
 * NVRAM
+* Ethernet
+* [NVMe](_resources/m2_info.png)
 
 ✳️ **Optional**
 * Onboard Bluetooth. Try this [kext](https://github.com/zxystd/IntelBluetoothFirmware).
 
-## 📸 Screenshots
-<details>
-<summary>Benchmarks</summary>
-
-![Disk](_resources/disk.png)
-
-![Cinebench](_resources/cinebench.png)
-
-![Geekbench](_resources/geekbench.png)
-
-</details>
-
 ## ❗️❗️ Before Use
 **INPORTANT!**
-1. Change SMBIOS info for yours (config.plist/PlatformInfo/Generic). You can use this [guide](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html).
-2. NVMe should be installed into M.2_2 slot on Asus Z390-E motherboard! Otherwise it will work in only X1 channel (~30% of full NVMe speed)!
+1. You __must__ replace SMBIOS info in ```config.plist -> PlatformInfo -> Generic```. Use this simple [guide](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html#generate-a-new-serial).
+2. Check [M.2 slots setup](_resources/m2_info.png).
 
 ## ⚙️ BIOS
 First of all update your BIOS to the latest version.
@@ -73,7 +79,7 @@ Then follow the list:
 |XMP II profile (optional)| enable|
 
 ## 😇 Config Sanity
-You can check my config [here](https://opencore.slowgeek.com/?file=coffeelake059Uy7glO&rs=coffeelake059).
+You can check config sanity [here](https://opencore.slowgeek.com/?file=coffeelake059Uy7glO&rs=coffeelake059).
 
 ## 🗺 USB Map
 Build has a USBMap.kext.
@@ -81,7 +87,7 @@ Build has a USBMap.kext.
 Check [usb table](_usb_map/usb_table.md) for details.
 
 ## 🛠 Tools
-Must have OpenCore hackintosher's tools
+Must have OpenCore hackintosher's tools:
 * [MountEFI](https://github.com/corpnewt/MountEFI) - Helps to mount /EFI folder
 * [ProperTree](https://github.com/corpnewt/MountEFI) - A way to open config.plist
 * [USBMap](https://github.com/corpnewt/USBMap) - Tool to make a usb map
@@ -90,4 +96,6 @@ Must have OpenCore hackintosher's tools
 * [OCConfigCompare](https://github.com/corpnewt/OCConfigCompare) - To update OC
 
 ## 📩 Contacts
-My email for questions - lbrdev.contact@gmail.com
+Config by [@lbrdev](https://github.com/lbrdev)
+
+Email - lbrdev.contact@gmail.com
