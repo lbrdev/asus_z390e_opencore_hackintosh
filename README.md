@@ -1,10 +1,9 @@
-# OpenCore Hackintosh for Asus ROG Strix Z390-E/Intel i5 9600k
-# Full rebuild to OpenCore 0.5.9!
-__OpenCore Version: 0.5.9__ MacOS Catalina by [OpenCore Guide](https://dortania.github.io/OpenCore-Desktop-Guide/)
+## OpenCore Hackintosh for Asus ROG Strix Z390-E Intel Coffee Lake
+__Version: OpenCore 0.5.9 MacOS Catalina 10.15.5__ by [OpenCore-Desktop-Guide](https://dortania.github.io/OpenCore-Desktop-Guide/)
 
 ## 📸 Screenshots
 <details>
-<summary>About Mac</summary>
+<summary>About</summary>
 
 ![About](_resources/about.png)
 
@@ -57,7 +56,7 @@ __OpenCore Version: 0.5.9__ MacOS Catalina by [OpenCore Guide](https://dortania.
 
 ## ❗️❗️ Before Use
 **INPORTANT!**
-1. You __must__ replace SMBIOS info in ```config.plist -> PlatformInfo -> Generic```. Use this simple [guide](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html#generate-a-new-serial).
+1. You __must__ change SMBIOS info in ```config.plist -> PlatformInfo -> Generic```. Use this simple [guide](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html#generate-a-new-serial).
 2. Check [M.2 slots setup](_resources/m2_info.png).
 
 ## ⚙️ BIOS
@@ -67,7 +66,7 @@ Then follow the list:
 |Option|Flag|
 |-|-|
 |Fast Boot | disable|
-|SecureBoot | disable
+|Secure Boot | disable
 |VT-d | disable
 |CSM | disable
 |CFG-Lock | disable
