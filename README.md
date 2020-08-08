@@ -1,7 +1,8 @@
-## OpenCore Hackintosh for Asus ROG Strix Z390-E Intel Coffee Lake
-__Version: OpenCore 0.5.9 MacOS Catalina 10.15.5__ by [OpenCore-Desktop-Guide](https://dortania.github.io/OpenCore-Desktop-Guide/)
+### Hackintosh for Asus ROG Strix Z390-E Coffee Lake
+###### ❗️08.08.2020 - Updated to latest OpenCore 0.6.0
+__Version: OpenCore 0.6.0 MacOS Catalina 10.15.6__ by [OpenCore-Desktop-Guide](https://dortania.github.io/OpenCore-Desktop-Guide/)
 
-## 📸 Screenshots
+### 📸 Screenshots
 <details>
 <summary>About</summary>
 
@@ -19,8 +20,10 @@ __Version: OpenCore 0.5.9 MacOS Catalina 10.15.5__ by [OpenCore-Desktop-Guide](h
 
 </details>
 
-## 📃 Hardware List
-#### 🖥 Mac
+### 📃 Hardware
+<details>
+<summary>🖥 Mac</summary>
+
 * Motherboard: ASUS ROG STRIX Z390-E Gaming ATX (s-1151)
 * CPU: Intel Core i5-9600K 3.7GHz/9MB (s-1151)
 * GPU: Radeon RX 580 8GB DDR5 Sapphire Pulse
@@ -34,34 +37,35 @@ __Version: OpenCore 0.5.9 MacOS Catalina 10.15.5__ by [OpenCore-Desktop-Guide](h
 * Mouse: Logitech MXMaster 2S
 * Keyboard: Varmilo VA108MAC
 
-#### 🎮 Windows
+</details>
+
+<details>
+<summary>🎮 Windows</summary>
+
 * Kingston SKC400S37 128Gb
 * WD Caviar Blue WD10EZEX 1 Tb
 
-## 🔄 System status
-✅ **Working**
-* Audio
-* APFS
-* Sleep/Wake
-* [USB](_usb_map/usb_table.md)
-* App Store
-* Facetime
-* Bluetooth & Wi-Fi (via [Fenvi T919](https://www.aliexpress.com/item/32778371977.html))
-* NVRAM
-* Ethernet
-* [NVMe](_resources/m2_info.png)
+</details>
 
-✳️ **Optional**
+### 🔄 System Status
+✅ **What's working?**
+- Everything
+
+✳️ **Some details**
+* [USB](_usb_map/usb_table.md)
+* Bluetooth & Wi-Fi (via [Fenvi T919](https://www.aliexpress.com/item/32778371977.html))
+* [NVMe](_resources/m2_info.png)
 * Onboard Bluetooth. Try this [kext](https://github.com/zxystd/IntelBluetoothFirmware).
 
-## ❗️❗️ Before Use
-**INPORTANT!**
-1. You __must__ change SMBIOS info in ```config.plist -> PlatformInfo -> Generic```. Use this simple [guide](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html#generate-a-new-serial).
-2. Check [M.2 slots setup](_resources/m2_info.png).
+### ❗️Before Usage
+1. Update SMBIOS. Follow the simple [guide](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html#generate-a-new-serial).
+2. Details about [M.2 slots setup](_resources/m2_info.png).
 
-## ⚙️ BIOS
-First of all update your BIOS to the latest version.
-Then follow the list:
+### ⚠️ BIOS
+1. Update BIOS to the latest version.
+
+<details>
+<summary>2. Follow this settings</summary>
 
 |Option|Flag|
 |-|-|
@@ -77,16 +81,19 @@ Then follow the list:
 |OS Type | windows |
 |XMP II profile (optional)| enable|
 
-## 😇 Config Sanity
-You can check config sanity [here](https://opencore.slowgeek.com/?file=coffeelake059Uy7glO&rs=coffeelake059).
+</details>
 
-## 🗺 USB Map
-Build has a USBMap.kext.
+### 😇 Config Sanity
+You can check config sanity [here](https://opencore.slowgeek.com/?file=coffeelake060fE9kZE&rs=coffeelake060).
 
+### 🗺 USB Map
+Build has a USBMap.kext.\
 Check [usb table](_usb_map/usb_table.md) for details.
 
-## 🛠 Tools
-Must have OpenCore hackintosher's tools:
+### 🛠 Tools
+<details>
+<summary>Must have OpenCore hackintosher's tools</summary>
+
 * [MountEFI](https://github.com/corpnewt/MountEFI) - Helps to mount /EFI folder
 * [ProperTree](https://github.com/corpnewt/MountEFI) - A way to open config.plist
 * [USBMap](https://github.com/corpnewt/USBMap) - Tool to make a usb map
@@ -94,7 +101,7 @@ Must have OpenCore hackintosher's tools:
 * [Lilu-and-Friends](https://github.com/corpnewt/Lilu-and-Friends) - To update kexts
 * [OCConfigCompare](https://github.com/corpnewt/OCConfigCompare) - To update OC
 
-## 📩 Contacts
-Config by [@lbrdev](https://github.com/lbrdev)
+</details>
 
-Email - lbrdev.contact@gmail.com
+### 📩 Credits
+Config by [@lbrdev](https://github.com/lbrdev)
