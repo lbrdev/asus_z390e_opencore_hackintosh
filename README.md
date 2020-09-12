@@ -1,6 +1,6 @@
 ### Hackintosh for Asus ROG Strix Z390-E Coffee Lake
-###### ❗️08.08.2020 - Updated to latest OpenCore 0.6.0
-__Version: OpenCore 0.6.0 MacOS Catalina 10.15.6__ by [OpenCore-Desktop-Guide](https://dortania.github.io/OpenCore-Desktop-Guide/)
+###### ❗️12.09.2020 - Updated to latest OpenCore 0.6.1
+__Version: OpenCore 0.6.1 MacOS Catalina 10.15.6__ by [OpenCore-Install-Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 
 ### 📸 Screenshots
 <details>
@@ -84,7 +84,7 @@ __Version: OpenCore 0.6.0 MacOS Catalina 10.15.6__ by [OpenCore-Desktop-Guide](h
 </details>
 
 ### 😇 Config Sanity
-You can check config sanity [here](https://opencore.slowgeek.com/?file=coffeelake060fE9kZE&rs=coffeelake060).
+You can check config sanity [here](https://opencore.slowgeek.com/?file=coffeelake061Qt9cpB&rs=coffeelake061).
 
 ### 🗺 USB Map
 Build has a USBMap.kext.\
