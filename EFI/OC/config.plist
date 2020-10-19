@@ -263,10 +263,16 @@
 		</array>
 		<key>Emulate</key>
 		<dict>
+			<key>DummyPowerManagement</key>
+			<false/>
 			<key>Cpuid1Data</key>
 			<data></data>
 			<key>Cpuid1Mask</key>
 			<data></data>
+			<key>MaxKernel</key>
+			<string></string>
+			<key>MinKernel</key>
+			<string></string>
 		</dict>
 		<key>Patch</key>
 		<array>
@@ -287,8 +293,6 @@
 			<true/>
 			<key>DisableRtcChecksum</key>
 			<true/>
-			<key>DummyPowerManagement</key>
-			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
 			<key>IncreasePciBarSize</key>
@@ -305,6 +309,10 @@
 			<false/>
 			<key>DisableLinkeditJettison</key>
 			<true/>
+			<key>ExtendBTFeatureFlags</key>
+			<false/>
+			<key>LegacyCommpage</key>
+			<false/>
 		</dict>
 		<key>Force</key>
 		<array>
@@ -551,6 +559,10 @@
 			<string>C02ZK0T1JV3Q</string>
 			<key>SystemUUID</key>
 			<string>1DC414CD-C0CF-4C33-AB38-683466DE28EE</string>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
+			<key>ProcessorType</key>
+			<integer>0</integer>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>

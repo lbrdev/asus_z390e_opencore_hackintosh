@@ -1,6 +1,6 @@
 ### Hackintosh for Asus ROG Strix Z390-E Coffee Lake
-###### ❗️12.09.2020 - Updated to latest OpenCore 0.6.1
-__Version: OpenCore 0.6.1 MacOS Catalina 10.15.6__ by [OpenCore-Install-Guide](https://dortania.github.io/OpenCore-Install-Guide/)
+###### ❗️19.10.2020 - Updated to latest OpenCore 0.6.2
+__Version: OpenCore 0.6.2 MacOS Catalina 10.15.7__ by [OpenCore-Install-Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 
 ### 📸 Screenshots
 <details>
