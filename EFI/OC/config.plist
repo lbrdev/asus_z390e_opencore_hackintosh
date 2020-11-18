@@ -313,6 +313,8 @@
 			<false/>
 			<key>LegacyCommpage</key>
 			<false/>
+			<key>ForceSecureBootScheme</key>
+			<false/>
 		</dict>
 		<key>Force</key>
 		<array>
@@ -572,6 +574,8 @@
 		<true/>
 		<key>UpdateSMBIOSMode</key>
 		<string>Create</string>
+		<key>CustomMemory</key>
+		<false/>
 	</dict>
 	<key>UEFI</key>
 	<dict>
@@ -659,6 +663,8 @@
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
 			<key>UgaPassThrough</key>
+			<false/>
+			<key>ForceResolution</key>
 			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
