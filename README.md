@@ -1,6 +1,6 @@
-### Hackintosh for Asus ROG Strix Z390-E Coffee Lake
+### Hackintosh for Asus ROG Strix Z390-E
 
-__Version: OpenCore 0.6.5 MacOS Big Sur 11.1__ by [OpenCore-Install-Guide](https://dortania.github.io/OpenCore-Install-Guide/)
+__OpenCore 0.6.6 | MacOS Big Sur 11.2__
 
 ### 📸 Screenshots
 <details>
@@ -22,7 +22,7 @@ __Version: OpenCore 0.6.5 MacOS Big Sur 11.1__ by [OpenCore-Install-Guide](https
 
 ### 📃 Hardware
 <details>
-<summary>🖥 Mac</summary>
+<summary>List</summary>
 
 * Motherboard: ASUS ROG STRIX Z390-E Gaming ATX (s-1151)
 * CPU: Intel Core i5-9600K 3.7GHz/9MB (s-1151)
@@ -36,37 +36,33 @@ __Version: OpenCore 0.6.5 MacOS Big Sur 11.1__ by [OpenCore-Install-Guide](https
 * Monitor: LG UltraFine 27UL650-W 27’’
 * Mouse: Logitech MXMaster 2S
 * Keyboard: Varmilo VA108MAC
-
-</details>
-
-<details>
-<summary>🎮 Windows</summary>
-
 * Kingston SKC400S37 128Gb
 * WD Caviar Blue WD10EZEX 1 Tb
 
 </details>
 
-### 🔄 System Status
-✅ **What's working?**
-- Everything
+### 🔄 Status
+<details>
+<summary>Details</summary>
 
-✳️ **Some details**
-* [USB](_usb_map/usb_table.md)
 * Bluetooth & Wi-Fi (via [Fenvi T919](https://www.aliexpress.com/item/32778371977.html))
-* [NVMe](_resources/m2_info.png)
+* [M.2 slots](_resources/m2_info.png)
 * Onboard Bluetooth. Try this [kext](https://github.com/zxystd/IntelBluetoothFirmware).
+* [USB table](_usb_map/usb_table.md)
 
-### ❗️Before Usage
-1. Update SMBIOS. Follow the simple [guide](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html#generate-a-new-serial).
-2. Details about [M.2 slots setup](_resources/m2_info.png).
+</details>
 
-### ⚠️ BIOS
-1. Update BIOS to the latest version.
+
+
+### ❗️ Usage
+<details>
+<summary>How to install</summary>
+
+1. Fill the [SMBIOS](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html#generate-a-new-serial) section
+2. Update BIOS to the latest version
 
 <details>
-<summary>2. Follow this settings</summary>
-
+<summary>3. Check BIOS settings</summary>
 |Option|Flag|
 |-|-|
 |Fast Boot | disable|
@@ -83,16 +79,15 @@ __Version: OpenCore 0.6.5 MacOS Big Sur 11.1__ by [OpenCore-Install-Guide](https
 
 </details>
 
-### 😇 Config Sanity
-You can check config sanity [here](https://opencore.slowgeek.com/?file=coffeelake0652AFFGA&rs=coffeelake065).
+</details>
 
-### 🗺 USB Map
-Build has a USBMap.kext.\
-Check [usb table](_usb_map/usb_table.md) for details.
+
+### 😇 Config Sanity
+You can check config sanity [here](https://opencore.slowgeek.com/?file=coffeelake066PvDtBs&rs=coffeelake066).
 
 ### 🛠 Tools
 <details>
-<summary>Must have OpenCore hackintosher's tools</summary>
+<summary>Helpful utilities</summary>
 
 * [MountEFI](https://github.com/corpnewt/MountEFI) - Helps to mount /EFI folder
 * [ProperTree](https://github.com/corpnewt/MountEFI) - A way to open config.plist
@@ -104,4 +99,4 @@ Check [usb table](_usb_map/usb_table.md) for details.
 </details>
 
 ### 📩 Credits
-Config by [@lbrdev](https://github.com/lbrdev)
+by [@lbrdev](https://github.com/lbrdev)
