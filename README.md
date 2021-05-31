@@ -1,6 +1,6 @@
 ### Hackintosh for Asus ROG Strix Z390-E
 
-__OpenCore 0.6.6 | MacOS Big Sur 11.2__
+__OpenCore 0.6.9 | MacOS Big Sur 11.4__
 
 ### 📸 Screenshots
 <details>
@@ -95,6 +95,30 @@ You can check config sanity [here](https://opencore.slowgeek.com/?file=coffeelak
 * [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) - Apple seral generator
 * [Lilu-and-Friends](https://github.com/corpnewt/Lilu-and-Friends) - To update kexts
 * [OCConfigCompare](https://github.com/corpnewt/OCConfigCompare) - To update OC
+
+</details>
+
+### ✅ Manual update
+<details>
+<summary>How to manual update this build</summary>
+
+1. Update kexts  
+You can compile them with [Lilu-and-Friends](https://github.com/corpnewt/Lilu-and-Friends).  
+Or download the pre-compiled ones from [kexts.goldfish64.com](kexts.goldfish64.com).
+
+2. Update following `*.efi` files  
+* `EFI/BOOT/BOOTx64.efi`
+* `EFI/OC/OpenCore.efi`
+* `EFI/OC/Drivers/OpenRuntime.efi`
+* `EFI/OC/Drivers/OpenCanopy.efi`
+* `EFI/OC/Tools/OpenShell.efi`
+* Remove `EFI/OC/Resources` and replace with [this](https://github.com/acidanthera/OcBinaryData/tree/master/Resources).
+
+3. Update Config  
+  1. Run [OC Config Compare](https://github.com/corpnewt/OCConfigCompare) on `config.plist` and the `Docs/Sample.plist` from the release archive.
+  2. Compare the highlighted values side by side.
+  3. Double-check the [guide](https://dortania.github.io/OpenCore-Install-Guide/) on the differences.
+  4. [Use Sanity Checker](https://opencore.slowgeek.com) or `ocvalidate` utility.
 
 </details>
 

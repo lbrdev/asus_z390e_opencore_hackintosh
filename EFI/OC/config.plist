@@ -65,6 +65,8 @@
 		<array/>
 		<key>Quirks</key>
 		<dict>
+			<key>ForceBooterSignature</key>
+			<false/>
 			<key>AllowRelocationBlock</key>
 			<false/>
 			<key>AvoidRuntimeDefrag</key>
@@ -595,6 +597,21 @@
 	</dict>
 	<key>UEFI</key>
 	<dict>
+		<key>AppleInput</key>
+		<dict>
+			<key>AppleEvent</key>
+			<string>Builtin</string>
+			<key>CustomDelays</key>
+			<false/>
+			<key>KeyInitialDelay</key>
+			<integer>50</integer>
+			<key>KeySubsequentDelay</key>
+			<integer>5</integer>
+			<key>PointerSpeedDiv</key>
+			<integer>1</integer>
+			<key>PointerSpeedMul</key>
+			<integer>1</integer>
+		</dict>
 		<key>APFS</key>
 		<dict>
 			<key>EnableJumpstart</key>
@@ -612,6 +629,8 @@
 		</dict>
 		<key>Audio</key>
 		<dict>
+			<key>ResetTrafficClass</key>
+			<false/>
 			<key>AudioCodec</key>
 			<integer>0</integer>
 			<key>AudioDevice</key>
@@ -643,8 +662,6 @@
 			<false/>
 			<key>KeyForgetThreshold</key>
 			<integer>5</integer>
-			<key>KeyMergeThreshold</key>
-			<integer>2</integer>
 			<key>KeySupport</key>
 			<true/>
 			<key>KeySupportMode</key>
@@ -660,6 +677,8 @@
 		</dict>
 		<key>Output</key>
 		<dict>
+			<key>GopPassThrough</key>
+			<false/>
 			<key>ClearScreenOnModeSwitch</key>
 			<false/>
 			<key>ConsoleMode</key>
@@ -693,8 +712,6 @@
 			<false/>
 			<key>AppleDebugLog</key>
 			<false/>
-			<key>AppleEvent</key>
-			<false/>
 			<key>AppleFramebufferInfo</key>
 			<false/>
 			<key>AppleImageConversion</key>
@@ -726,6 +743,14 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
+			<key>ReloadOptionRoms</key>
+			<false/>
+			<key>ForgeUefiSupport</key>
+			<false/>
+			<key>EnableVectorAcceleration</key>
+			<true/>
+			<key>ActivateHpetSupport</key>
+			<false/>
 			<key>DisableSecurityPolicy</key>
 			<false/>
 			<key>ExitBootServicesDelay</key>
