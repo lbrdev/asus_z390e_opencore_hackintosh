@@ -115,10 +115,10 @@ Or download the pre-compiled ones from [kexts.goldfish64.com](kexts.goldfish64.c
 * Remove `EFI/OC/Resources` and replace with [this](https://github.com/acidanthera/OcBinaryData/tree/master/Resources).
 
 3. Update Config  
-  1. Run [OC Config Compare](https://github.com/corpnewt/OCConfigCompare) on `config.plist` and the `Docs/Sample.plist` from the release archive.
-  2. Compare the highlighted values side by side.
-  3. Double-check the [guide](https://dortania.github.io/OpenCore-Install-Guide/) on the differences.
-  4. [Use Sanity Checker](https://opencore.slowgeek.com) or `ocvalidate` utility.
+* Run [OC Config Compare](https://github.com/corpnewt/OCConfigCompare) on `config.plist` and the `Docs/Sample.plist` from the release archive.
+* Compare the highlighted values side by side.
+* Double-check the [guide](https://dortania.github.io/OpenCore-Install-Guide/) on the differences.
+* [Use Sanity Checker](https://opencore.slowgeek.com) or `ocvalidate` utility.
 
 </details>
 
