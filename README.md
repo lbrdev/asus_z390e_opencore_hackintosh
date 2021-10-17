@@ -63,19 +63,20 @@ __OpenCore 0.7.4 | MacOS Big Sur 11.4__
 
 <details>
 <summary>3. Check BIOS settings</summary>
-|Option|Flag|
-|-|-|
-|Fast Boot | disable|
-|Secure Boot | disable
-|VT-d | disable
-|CSM | disable
-|CFG-Lock | disable
-|Serial Port | disable
-|WiFi & Bluetooth | disable
-|Above 4G | enable
-|XHCI Hand-off | enable
+  
+|Option|Flag state |
+| - | - |
+|Fast Boot | - |
+|Secure Boot | - |
+|VT-d | - |
+|CSM | - |
+|CFG-Lock | - |
+|Serial Port | - |
+|WiFi & Bluetooth | - |
+|Above 4G | + |
+|XHCI Hand-off | + |
 |OS Type | windows |
-|XMP II profile (optional)| enable|
+|XMP II profile (optional)| + |
 
 </details>
 
