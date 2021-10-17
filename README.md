@@ -1,6 +1,6 @@
 ### Hackintosh for Asus ROG Strix Z390-E
 
-__OpenCore 0.7.4 | MacOS Big Sur 11.4__
+__OpenCore 0.7.4 | MacOS Big Sur 11.6__
 
 ### 📸 Screenshots
 <details>
