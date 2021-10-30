@@ -60,7 +60,7 @@ __[OpenCore 0.7.4](https://github.com/acidanthera/OpenCorePkg) | MacOS Monterey 
 <details>
 <summary>How to install</summary>
 
-1. Fill the [SMBIOS](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html#generate-a-new-serial) section
+1. Fill the [SMBIOS](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#platforminfo) section
 2. Update BIOS to the latest version
 
 <details>
