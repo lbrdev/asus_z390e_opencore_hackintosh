@@ -2,6 +2,8 @@
 
 __[OpenCore 0.7.4](https://github.com/acidanthera/OpenCorePkg) | MacOS Monterey 12.0.1__
 
+![header](_resources/header.jpeg)
+
 ### 📸 Screenshots
 <details>
 <summary>About</summary>
@@ -63,7 +65,7 @@ __[OpenCore 0.7.4](https://github.com/acidanthera/OpenCorePkg) | MacOS Monterey 
 
 <details>
 <summary>3. Check BIOS settings</summary>
-  
+
 |Option|Flag state |
 | - | - |
 |Fast Boot | - |
