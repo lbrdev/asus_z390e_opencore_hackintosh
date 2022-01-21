@@ -1,6 +1,6 @@
 ### Hackintosh for Asus ROG Strix Z390-E
 
-__[OpenCore 0.7.4](https://github.com/acidanthera/OpenCorePkg) | MacOS Monterey 12.0.1__
+__[OpenCore 0.7.7](https://github.com/acidanthera/OpenCorePkg) | MacOS Monterey 12.1__
 
 ![header](_resources/header.jpeg)
 
