@@ -307,6 +307,8 @@
 		<array/>
 		<key>Quirks</key>
 		<dict>
+			<key>CustomPciSerialDevice</key>
+			<false/>
 			<key>AppleCpuPmCfgLock</key>
 			<false/>
 			<key>AppleXcpmCfgLock</key>
@@ -314,6 +316,8 @@
 			<key>AppleXcpmExtraMsrs</key>
 			<false/>
 			<key>AppleXcpmForceBoost</key>
+			<false/>
+			<key>ForceAquantiaEthernet</key>
 			<false/>
 			<key>CustomSMBIOSGuid</key>
 			<true/>
@@ -362,6 +366,13 @@
 	</dict>
 	<key>Misc</key>
 	<dict>
+		<key>Serial</key>
+		<dict>
+			<key>Init</key>
+			<false/>
+			<key>Override</key>
+			<false/>
+		</dict>
 		<key>BlessOverride</key>
 		<array/>
 		<key>Boot</key>
@@ -395,6 +406,8 @@
 		</dict>
 		<key>Debug</key>
 		<dict>
+			<key>LogModules</key>
+			<string>*</string>
 			<key>AppleDebug</key>
 			<false/>
 			<key>ApplePanic</key>
@@ -405,8 +418,6 @@
 			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
-			<key>SerialInit</key>
-			<false/>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
@@ -435,12 +446,8 @@
 		</array>
 		<key>Security</key>
 		<dict>
-			<key>AllowNvramReset</key>
-			<true/>
 			<key>AllowSetDefault</key>
 			<true/>
-			<key>AllowToggleSip</key>
-			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
@@ -506,8 +513,6 @@
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
-				<key>SystemAudioVolumeDB</key>
-				<data>4g==</data>
 				<key>ForceDisplayRotationInEFI</key>
 				<integer>0</integer>
 				<key>SystemAudioVolume</key>
